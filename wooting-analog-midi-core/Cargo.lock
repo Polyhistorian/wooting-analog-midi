@@ -454,8 +454,8 @@ checksum = "504a2476202769977a040c6364301a3f65d0cc9e3fb08600b2bda150a0488316"
 
 [[package]]
 name = "wooting-analog-common"
-version = "0.6.0"
-source = "git+https://github.com/WootingKb/wooting-analog-sdk?branch=develop#0b824d4dc4034fdc975cf70ea1c615947961aefa"
+version = "0.7.0"
+source = "git+https://github.com/WootingKb/wooting-analog-sdk?branch=develop#59764f9f84265c03adecf76010fae385d0108774"
 dependencies = [
  "enum-primitive-derive",
  "ffi-support",
@@ -479,8 +479,8 @@ dependencies = [
 
 [[package]]
 name = "wooting-analog-wrapper"
-version = "0.6.0"
-source = "git+https://github.com/WootingKb/wooting-analog-sdk?branch=develop#0b824d4dc4034fdc975cf70ea1c615947961aefa"
+version = "0.7.0"
+source = "git+https://github.com/WootingKb/wooting-analog-sdk?branch=develop#59764f9f84265c03adecf76010fae385d0108774"
 dependencies = [
  "ctrlc",
  "lazy_static",
