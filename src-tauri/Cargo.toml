@@ -2,7 +2,7 @@
 name = "wooting-analog-midi"
 version = "0.2.2"
 description = "Virtual MIDI input for Analog keyboards!"
-authors = [ "simon-wh", "PastaJ36" ]
+authors = ["simon-wh", "PastaJ36"]
 license = "MPL-2.0"
 repository = ""
 default-run = "wooting-analog-midi"
@@ -11,25 +11,25 @@ build = "src/build.rs"
 
 [dependencies]
 serde_json = "1.0"
-serde = { version = "1.0", features = [ "derive" ] }
+serde = { version = "1.0", features = ["derive"] }
 log = "0.4"
-env_logger = "0.8"
+env_logger = "0.11.2"
 wooting-analog-midi-core = { path = "../wooting-analog-midi-core" }
 lazy_static = "1.4"
 anyhow = "1.0"
 flume = "0.11"
 msgbox = "0.7"
 
-  [dependencies.tauri]
-  version = "1.0.5"
-  features = ["api-all", "devtools"]
+[dependencies.tauri]
+version = "1.0.5"
+features = ["api-all", "devtools"]
 
 [build-dependencies]
 tauri-build = { version = "1.5.1", features = [] }
 
 [features]
-custom-protocol = [ "tauri/custom-protocol" ]
-default = [ "custom-protocol" ]
+custom-protocol = ["tauri/custom-protocol"]
+default = ["custom-protocol"]
 
 [[bin]]
 name = "wooting-analog-midi"
