@@ -25,7 +25,7 @@ msgbox = "0.7"
   features = ["api-all", "devtools"]
 
 [build-dependencies]
-tauri-build = { version = "1.0.4", features = [] }
+tauri-build = { version = "1.5.1", features = [] }
 
 [features]
 custom-protocol = [ "tauri/custom-protocol" ]
